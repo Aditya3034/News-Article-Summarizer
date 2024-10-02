@@ -23,7 +23,7 @@ function App() {
         // const assessment = await checkSourceReliability(summary);
         setReliabilityAssessment(reliability);
       } catch (error) {
-        alert('Failed to summarize the article.');
+        console.log('Failed to summarize the article.');
       } finally {
         setLoading(false); // Set loading to false after fetching
       }
