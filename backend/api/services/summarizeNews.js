@@ -4,7 +4,7 @@ const { load } = require('cheerio');
 const { GoogleGenerativeAI } = require("@google/generative-ai"); // Importing the Google Generative AI library
 require('dotenv').config();
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY); // Initialize the client with your API key
+const genAI = new GoogleGenerativeAI(`AIzaSyAVfaNvl6IxcXgCzCe-l7bwzEOtQbE1KRs`); // Initialize the client with your API key
 
 const fetchArticleContent = async (url) => {
   try {
