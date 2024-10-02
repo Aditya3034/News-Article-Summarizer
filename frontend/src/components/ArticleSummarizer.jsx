@@ -8,7 +8,7 @@
 //     if (articleURL || articleText) {
 //       onSummarize(articleURL, articleText);
 //     } else {
-//       alert('Please provide a URL or text.');
+//       console.log('Please provide a URL or text.');
 //     }
 //   };
 
@@ -44,7 +44,7 @@ const ArticleSummarizer = ({ onSummarize }) => {
       const text = await navigator.clipboard.readText();
       setState(text);
     } catch (err) {
-      alert('Failed to read clipboard contents.');
+      console.log('Failed to read clipboard contents.');
     }
   };
 
@@ -52,7 +52,7 @@ const ArticleSummarizer = ({ onSummarize }) => {
     if (articleURL || articleText) {
       onSummarize(articleURL, articleText);
     } else {
-      alert('Please provide a URL or text.');
+      console.log('Please provide a URL or text.');
     }
   };
 
