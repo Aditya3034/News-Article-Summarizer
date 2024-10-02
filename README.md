@@ -71,9 +71,8 @@ Create a .env file in the backend folder:
 
 ```bash
 touch backend/.env
-Add your API keys:
 ```
-
+Add your API keys:
 ```bash
 echo "GEMINI_API_KEY=your_gemini_api_key" > backend/.env
 ```
