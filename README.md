@@ -22,7 +22,7 @@ To run this project locally, ensure that you have the following software install
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/news-article-summarizer.git
+git clone https://github.com/Aditya3034/News-Article-Summarizer.git
 cd news-article-summarizer
 ```
 
