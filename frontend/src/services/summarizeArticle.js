@@ -7,7 +7,8 @@ export const summarizeArticle = async (url, text) => {
       url,
       text,
     });
-    return response.data; // Assuming your backend returns the summary like { summary: '...' }
+    
+    return response.data;
   } catch (error) {
     console.error('Error summarizing article:', error);
     throw new Error('Error summarizing article');

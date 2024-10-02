@@ -30,7 +30,7 @@ h3 {
 /* Input Styles */
 input[type="text"],
 textarea {
-  width: 100%; /* Full width */
+  width: 95%; /* Full width */
   padding: 12px; /* Increased padding */
   margin: 10px 0; /* Space between input fields */
   border: 1px solid #ccc; /* Light border */
