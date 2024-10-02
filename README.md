@@ -24,51 +24,56 @@ To run this project locally, ensure that you have the following software install
 ```bash
 git clone https://github.com/your-username/news-article-summarizer.git
 cd news-article-summarizer
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Frontend
 Navigate to the frontend folder and install the necessary dependencies:
 
-bash
-Copy code
+```bash
 cd frontend
 npm install
+```
+
 Backend
 Navigate to the backend folder and install the necessary dependencies:
 
-bash
-Copy code
+```bash
 cd ../backend
 npm install
-3. Start the Project
+```
+### 3. Start the Project
+
 Running the Frontend
 To start the frontend React application, run the following commands:
 
-bash
-Copy code
+```bash
 cd frontend
 npm start
+```
+
 This will start the frontend on http://localhost:3000.
 
 Running the Backend
-To start the backend Node.js server, run the following commands:
+To start the backend Node.js server in different terminal, run the following commands:
 
-bash
-Copy code
+```bash
 cd ../backend
 npm start
+```
+
 This will start the backend on http://localhost:5000.
 
-4. Environment Variables
+### 4. Environment Variables
 The backend requires environment variables for API keys. Set up the .env file as follows:
 
 Create a .env file in the backend folder:
 
-bash
-Copy code
+```bash
 touch backend/.env
 Add your API keys:
+```
 
-bash
-Copy code
+```bash
 echo "GEMINI_API_KEY=your_gemini_api_key" > backend/.env
+```
