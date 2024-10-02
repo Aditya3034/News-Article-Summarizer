@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const summarizeArticle = async (url, text) => {
   try {
-    const response = await axios.post('http://localhost:3001/api/summarize', {
+    const response = await axios.post('https://nas-lovat.vercel.app/api/summarize', {
       url,
       text,
     });
